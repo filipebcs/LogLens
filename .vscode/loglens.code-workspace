@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "go.toolsManagement.autoUpdate": true,
+    "go.useLanguageServer": true,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+  },
+}

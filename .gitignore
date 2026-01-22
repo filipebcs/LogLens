@@ -1,0 +1,8 @@
+/bin/
+/loglens
+*.exe
+*.test
+*.out
+
+.vscode/*
+!.vscode/loglens.code-workspace

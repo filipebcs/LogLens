@@ -1,0 +1,23 @@
+- id: excessive_errors
+  description: Muitos erros detectados
+  level: ERROR
+  threshold: 2
+  severity: high
+
+- id: many_warnings
+  description: Muitos avisos detectados
+  level: WARN
+  threshold: 2
+  severity: medium
+
+- id: connection_failure
+  description: Falha de conexão detectada
+  severity: high
+  pattern: "(failed to connect|timeout)"
+
+- id: burst_errors
+  description: Explosão de erros em curto intervalo
+  level: ERROR
+  threshold: 3
+  window_seconds: 60
+  severity: high
