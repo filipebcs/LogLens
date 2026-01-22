@@ -1,8 +1,16 @@
+# Go build artifacts
 /bin/
-/loglens
 *.exe
 *.test
 *.out
 
+# Go coverage
+*.coverprofile
+
+# VS Code
 .vscode/*
 !.vscode/loglens.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
